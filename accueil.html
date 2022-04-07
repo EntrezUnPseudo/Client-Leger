@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Accueil</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <style>
+    .fakeimg {
+      background-color: rgb(176, 174, 174);
+      height: 200px;
+    }
+  </style>
+</head>
+
+<!-- Barre de navigation (Header)-->
+<header>
+  <!-- A grey horizontal navbar that becomes vertical on small screens -->
+  <nav class="navbar navbar-expand-sm bg-dark p-3 fixed-top">
+    <div class="container text-white " style="width: auto">
+      <h5>CritiqueJeux</h5>
+    </div>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://thumbs.dreamstime.com/b/contr-leur-icon-logo-de-jeu-de-joypad-de-manette-80756896.jpg"
+          alt="erreur" width="50px">
+      </a>
+    </div>
+    <div class="container-fluid  justify-content-end">
+      <!-- Links -->
+      <form class="d-flex">
+        <button class="btn btn-outline-danger mx-2" type="button">Search</button>
+        <input class="form-control me-2" type="text" placeholder="Search" />
+
+      </form>
+    </div>
+    <!-- Bouton Jeux -->
+   
+      <a class="btn btn btn-outline-light mx-3" href="">Jeux</a>
+ 
+
+
+      
+    <!-- Bouton Connexion -->
+      <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+  Connexion
+</button>
+  </nav>
+
+<!-- The Modal -->
+<div class="modal  " id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title ">Connexion</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body text-white ">
+        
+          <div class="p-2 bg-danger  " ><form action="/action_page.php">
+            <h4 class="text-center ">Connexion</h4>
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-check mb-3 text-center justify-content-center">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <div class=" container  text-center">
+              <button type="submit" class="btn btn-dark   ">Submit</button> <br> <br>
+            </div>
+            
+           <a style="text-decoration: none;" class=" text-light text-center " href=""><h6>Nouveaux, créer un compte maintenant!</h6></a> 
+          </form></div>
+        </div>
+     
+
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+  
+</header>
+
+<body>
+
+  <section>
+    <!-- Bloc des dernier jeux notés -->
+    <div class="container p-5 bg-danger text-white my-5" style=" top: 20%;">
+
+      <div class="row bg-warning my-5">
+        <p class=" display-6">Dernieres notations</p>
+        <div class=" col-sm-4 ">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Jeux / Note : 2/10</h5>
+          </div>
+        </div>
+
+        <div class=" col-sm-4">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Jeux / Note : 2/10</h5>
+          </div>
+        </div>
+        <div class=" col-sm-4">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Jeux / Note : 2/10</h5>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    
+    <!-- Carousel derniers jeux sorties -->
+    <!-- 
+    <div class="container-fluid bg-dark text-white p-5 my-5">
+      <div class="row bg-warning">
+        <p class=" display-6">Dernieres sorties (carousel)</p>
+        <div class=" col-sm-3 ">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Note :</h5>
+          </div>
+        </div>
+
+        <div class=" col-sm-3">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Note :</h5>
+          </div>
+        </div>
+        <div class=" col-sm-3">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Note :</h5>
+          </div>
+        </div>
+        <div class=" col-sm-3">
+          <div class="fakeimg"></div>
+          <div>
+            <h5>Note :</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- Carousel -->
+
+
+ <div class="container-fluid text-white p-5 my-5">
+      <div class="row bg-warning">
+        <p class=" display-6 text-center">Dernieres sorties (carousel)</p>
+        <div class=" col-sm-4 ">
+          
+        </div>
+
+        <div class=" col-sm-4">
+          
+            <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 100%;">
+      
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              </div>
+            
+              <!-- The slideshow/carousel -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://imgs.search.brave.com/3snCXeVo73itycoWVikPdtExyQTF_ShHMgssTsWA8cA/rs:fit:200:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/Mkk1T0FwWGdYeHBV/ekZIdGxkcEZRQUFB/QSZwaWQ9QXBp" alt="Los Angeles" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had such a great time in LA!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/2iMRIDUFfr9lyClNdJWRsepGYbB4NnufA2-AVzPEqPM/rs:fit:200:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/YW5uU3hkNG84QlVU/VmlJR1YtcHZRSGFI/YSZwaWQ9QXBp" alt="Chicago" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had such a great time in LA!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://imgs.search.brave.com/vNpKFGN0wMxtS94rT8jPZXskNjcBHp51Y8-Wkwoxa9s/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/WllrLVUtb05OVlRa/RDZ5TTlsZFJBSGFI/YSZwaWQ9QXBp" alt="New York" class="d-block w-100">
+                  <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had such a great time in LA!</p>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          
+        </div>
+        <div class=" col-sm-4">
+          
+        </div>
+      </div>
+    </div>
+
+
+    
+
+  </section>
+
+  <main>
+    <!-- Bloc meilleurs notes (jeux) -->
+    <div class="container-fluid p-5 bg-danger text-white text-center">
+      <h1>Classement meilleurs jeux</h1>
+      <p>Selon vous!</p>
+    </div>
+<!-- Colonnes classement jeux -->
+    <div class="container-fluid p-5">
+      <div class="row my-5">
+<!-- Colonne de gauche -->
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Classement / Jeux / Note</h4>
+              <div class="fakeimg">Fake Image</div>
+            </div>
+            <div class="col-sm-6">
+              <h4>Info</h4>
+              <h5>Sortie le 7 Dec, 2020</h5>
+              <h5>Resumé</h5>
+              <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco.</p>
+            </div>
+
+            <div class="row my-5">
+              <div class="col-sm-6">
+                <h4>Classement / Jeux / Note</h4>
+                <div class="fakeimg">Fake Image</div>
+              </div>
+              <div class="col-sm-6">
+                <h4>Info</h4>
+                <h5>Sortie le 7 Dec, 2020</h5>
+                <h5>Resumé</h5>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                  eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco.</p>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="col-sm-6">
+                <h4>Classement / Jeux / Note</h4>
+                <div class="fakeimg">Fake Image</div>
+              </div>
+              <div class="col-sm-6">
+                <h4>Info</h4>
+                <h5>Sortie le 7 Dec, 2020</h5>
+                <h5>Resumé</h5>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                  eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Colonne de droite -->
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Classement / Jeux / Note</h4>
+              <div class="fakeimg">Fake Image</div>
+            </div>
+            <div class="col-sm-6">
+              <h4>Info</h4>
+              <h5>Sortie le 7 Dec, 2020</h5>
+              <h5>Resumé</h5>
+              <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco.</p>
+            </div>
+
+            <div class="row my-5">
+              <div class="col-sm-6">
+                <h4>Classement / Jeux / Note</h4>
+                <div class="fakeimg">Fake Image</div>
+              </div>
+              <div class="col-sm-6">
+                <h4>Info</h4>
+                <h5>Sortie le 7 Dec, 2020</h5>
+                <h5>Resumé</h5>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                  eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco.</p>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="col-sm-6">
+                <h4>Classement / Jeux / Note</h4>
+                <div class="fakeimg">Fake Image</div>
+              </div>
+              <div class="col-sm-6">
+                <h4>Info</h4>
+                <h5>Sortie le 7 Dec, 2020</h5>
+                <h5>Resumé</h5>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                  eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+</body>
+
+<footer class="container-fluid bg-dark text-center text-white p-2 ">
+  <h6>Footer</h6>
+</footer>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+</html>
